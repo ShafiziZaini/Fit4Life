@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        style="@style/Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Welcome to Fit4Life !" />
+
+    <TextView
+        style="@style/PurpleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Please provide us with your information to continue." />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="8dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/avatar"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@color/purple_500"/>
+
+        <ImageButton
+            android:id="@+id/new_ava_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/new_icon"
+            android:src="@drawable/new_icon"
+            app:tint="@color/purple_200" />
+
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kindly add your details for the profile"
+        style="@style/NormalText"
+        android:layout_marginBottom="40dp"/>
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/Email"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        style="@style/NormalText"
+        android:textSize="20dp"/>
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/height"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Height (cm)"
+        style="@style/NormalText"
+        android:textSize="20dp"/>
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/weight"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Weight (kg)"
+        style="@style/NormalText"
+        android:textSize="20dp"/>
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/name"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="name"
+        style="@style/NormalText"
+        android:textSize="20dp"/>
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/phone"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="phone"
+        style="@style/NormalText"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The information is used to evaluate your workout!"
+        style="@style/NormalText"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/continue_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continue"
+        android:layout_marginTop="20dp"
+        android:shadowRadius="10.0"/>
+
+</LinearLayout>

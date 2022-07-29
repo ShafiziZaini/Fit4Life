@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/OneDrive/Desktop/FYPLatest1/app/src/main/res/drawable-v24/horizontal_line_separator_color.xml" value="0.23055555555555557" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/FYPLatest1/app/src/main/res/drawable-v24/ic_baseline_email_24.xml" value="0.16296296296296298" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/FYPLatest1/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.240625" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/FYPLatest1/app/src/main/res/drawable-v24/search_bg.xml" value="0.403125" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/FYPLatest1/app/src/main/res/drawable/backk.xml" value="0.13055555555555556" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/FYPLatest1/app/src/main/res/drawable/backkk.xml" value="0.13240740740740742" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/FYPLatest1/app/src/main/res/drawable/customborder.xml" value="0.32314814814814813" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/FYPLatest1/app/src/main/res/drawable/ic_launcher_background.xml" value="0.240625" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/FYPLatest1/app/src/main/res/drawable/ic_phone.xml" value="0.403125" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/FYPLatest1/app/src/main/res/layout/activity_abs.xml" value="0.25" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/FYPLatest1/app/src/main/res/layout/activity_add_running.xml" value="0.25" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/FYPLatest1/app/src/main/res/layout/activity_back.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/FYPLatest1/app/src/main/res/layout/activity_forgot_password.xml" value="0.25" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/FYPLatest1/app/src/main/res/layout/activity_home.xml" value="0.33" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/FYPLatest1/app/src/main/res/layout/activity_leg.xml" value="0.23541666666666666" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/FYPLatest1/app/src/main/res/layout/activity_list.xml" value="0.25" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/FYPLatest1/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/FYPLatest1/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/FYPLatest1/app/src/main/res/layout/activity_maps.xml" value="0.23697916666666666" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/FYPLatest1/app/src/main/res/layout/activity_me.xml" value="0.33" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/FYPLatest1/app/src/main/res/layout/activity_record.xml" value="0.18" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/FYPLatest1/app/src/main/res/layout/activity_register.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/FYPLatest1/app/src/main/res/layout/activity_running_auto.xml" value="0.25" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/FYPLatest1/app/src/main/res/layout/activity_running_maps.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/FYPLatest1/app/src/main/res/layout/activity_splash_screen.xml" value="0.22" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/FYPLatest1/app/src/main/res/layout/activity_triceps.xml" value="0.23541666666666666" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/FYPLatest1/app/src/main/res/layout/activity_workout.xml" value="0.9" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/FYPLatest1/app/src/main/res/layout/custom_dialog.xml" value="0.24166666666666667" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/FYPLatest1/app/src/main/res/layout/edit_profile.xml" value="0.25" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/FYPLatest1/app/src/main/res/layout/fragment_descfragment.xml" value="0.18" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/FYPLatest1/app/src/main/res/layout/fragment_home_bottom_tab.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/FYPLatest1/app/src/main/res/layout/list_layout.xml" value="0.2171875" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/FYPLatest1/app/src/main/res/layout/main_item.xml" value="0.2194871794871795" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/FYPLatest1/app/src/main/res/layout/reminder_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/FYPLatest1/app/src/main/res/layout/running_activity_items_layout.xml" value="0.33" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/FYPLatest1/app/src/main/res/layout/test.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/FYPLatest1/app/src/main/res/layout/workout_categories.xml" value="0.25" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/FYPLatest1/app/src/main/res/menu/nav_menu.xml" value="0.1" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/FYPLatest1/app/src/main/res/menu/running_menu.xml" value="0.18" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/FYPLatest1/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.240625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.3055555555555556" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    android:orientation="vertical"
+    android:layout_marginBottom="12dp"
+    android:clickable="true"
+    android:focusableInTouchMode="true">
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="329dp"
+        android:background="@drawable/customborder"
+        android:orientation="vertical">-->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="325dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titleID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Afternoon Run"
+            android:textAppearance="@style/Title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="150dp"
+            android:layout_marginBottom="10dp"
+            android:columnCount="3"
+            android:orientation="horizontal"
+            android:rowCount="2"
+            app:layout_constraintBottom_toTopOf="@+id/p1ID"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="Distance"
+                android:textAppearance="@style/TimeAddress" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="Pace"
+                android:textAppearance="@style/TimeAddress" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="Time"
+                android:textAppearance="@style/TimeAddress" />
+
+            <TextView
+                android:id="@+id/distanceID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="3.75 km"
+                android:textAppearance="@style/BlackText" />
+
+            <TextView
+                android:id="@+id/paceID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="7:34 /km"
+                android:textAppearance="@style/BlackText" />
+
+            <TextView
+                android:id="@+id/timeID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="28m 25s"
+                android:textAppearance="@style/BlackText" />
+
+        </GridLayout>
+
+        <ImageView
+            android:id="@+id/p1ID"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="80dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/distance_challenge"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="270dp"
+            android:layout_marginTop="15dp"
+            android:columnCount="3"
+            android:orientation="horizontal"
+            android:rowCount="1"
+            app:layout_constraintEnd_toEndOf="@+id/p1ID"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/p1ID"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="0"
+                android:text="12/"
+                android:textAppearance="@style/BlackText"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="0"
+                android:text="12/"
+                android:textAppearance="@style/BlackText"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/year"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="0"
+                android:text="2021"
+                android:textAppearance="@style/BlackText"
+                android:textStyle="bold" />
+        </GridLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <!--</LinearLayout>-->
+
+</LinearLayout>
